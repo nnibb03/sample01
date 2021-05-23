@@ -7,7 +7,7 @@
         <meta name="description" content="静岡県XX市で消化器内科・内科をお探しなら、北村クリニックにご相談ください。">
         <!-- CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="https://nnibb03.github.io/sample01/style.css">
+        <link rel="stylesheet" href="https://github.com/nnibb03/sample01/style.css">
         <!-- Add the slick-theme.css if you want default styling -->
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <!-- Add the slick-theme.css if you want default styling -->
@@ -25,29 +25,43 @@
                 </div>
             </div>
             <div class="wrap">
-                <a href ="index.html" class="logo"><img src="./kitamura_logo.jpg" alt="北村クリニック"></a>
+                <a href ="index.html" class="logo">
+                     <img src="./images/kitamura_logo.jpg" alt="北村クリニック">
+                </a>
                 <div class="header-tel">
                     <span><i class="fas fa-phone"></i> 05x-6xx-1xxx</span>
                     <br><p>休診日:水曜日・日曜日・祝日・土曜午後</p>
                 </div>
+                <div class="sp-btn">
+                    <a href=""><img src="./images/phone_btn.jpg" alt="phone"></a>
+                    <a href="access.html"><img src="./images/map_btn.jpg" alt="map"></a>
+                </div>
             </div>
-            <div class="pc-nav">
+            <nav class="pc-nav">
                 <ul class="pc-nav-list">
                     <li><a href="index.html">トップページ</a></li>
-                    <li><a href="">クリニック紹介</a></li>
-                    <li><a href="">診療内容</a></li>
-                    <li><a href="">診療時間</a></li>
-                    <li><a href="">アクセス</a></li>
+                    <li><a href="clinic.html">クリニック紹介</a></li>
+                    <li><a href="feature.html">診療内容</a></li>
+                    <li><a href="time.html">診療時間</a></li>
+                    <li><a href="access.html">アクセス</a></li>
                 </ul>
-            </div>
+            </nav>
+            <nav class="sp-nav">
+                <ul class="sp-nav-list">
+                    <li><a href="clinic.html">クリニック紹介</a></li>
+                    <li><a href="feature.html">診療内容</a></li>
+                    <li><a href="time.html">診療時間</a></li>
+                    <li><a href="access.html">アクセス</a></li>
+                </ul>
+            </nav>
         </header>
         <!-- メイン -->
         <div class="cover">
             <div class="wrap">
                 <div class="cover-img">
-                    <div><img src="./kitamura_cover.jpg"></div>
-                    <div><img src="./kitamura_cover2.jpg"></div>
-                    <div><img src="./kitamura_cover3.jpg"></div>
+                    <div><img src="./images/kitamura_cover.jpg"></div>
+                    <div><img src="./images/kitamura_cover2.jpg"></div>
+                    <div><img src="./images/kitamura_cover3.jpg"></div>
                 </div>
                 <div class="cover-description">当院では患者様ひとりひとりの
                     <br>健康上の悩みや不安に真摯に向き合い、
@@ -141,8 +155,9 @@
                 <section class="map">
                     <div class="section-title"><h1>アクセス</h1></div>
                     <div class="google-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.7998968345532!2d138.2435146149641!3d34.8612549803936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a4fe75fcc6dcb%3A0xe9ea86fad2d6b905!2z44CSNDI2LTAwNzIg6Z2Z5bKh55yM6Jek5p6d5biC5Y2X5paw5bGL77yR77yR!5e0!3m2!1sja!2sjp!4v1621565433890!5m2!1sja!2sjp" width="800" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        <p>〒xxx-xxxx 静岡県XX市XX3-2<br>xx駅から徒歩15分</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.7998968345532!2d138.2435146149641!3d34.8612549803936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a4fe75fcc6dcb%3A0xe9ea86fad2d6b905!2z44CSNDI2LTAwNzIg6Z2Z5bKh55yM6Jek5p6d5biC5Y2X5paw5bGL77yR77yR!5e0!3m2!1sja!2sjp!4v1621565433890!5m2!1sja!2sjp" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <p>〒xxx-xxxx 静岡県XX市XX3-2
+                        <br>xx駅から徒歩15分</p>
                     </div>
                 </section>
             </main>
@@ -161,8 +176,7 @@
         </footer>
         <!-- JS -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="./js/hamburger.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-        <script src="https://nnibb03.github.io/sample01/js/carousel.js"></script>
+        <script src="./js/carousel.js"></script>
     </body>
 </html>
